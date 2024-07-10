@@ -13,7 +13,7 @@
     border: 2px solid red;
     min-height: 550px;
     margin: 20px;
-    background-image: url("/B10A1-Challenge-Begins/assets/Hero-bg.png");
+    background-image: url("/assets/Hero-bg.png")
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,9 +45,55 @@
    
     margin: 30px;
     padding: 20px;
-    border: 2px solid red;
-    
-    
+    border: 2px solid red; 
+}
+.link{
+    margin-top: 35px;
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+}
+.link a{
+    color: white;
+    font-family: tahoma;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: small;
 }
 
+.main{
+    height: 100%;
+    width: 80%;
+    /* background-color: gray; */
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+    font-family: Azeret Mono;
     
+
+}
+
+main h1{
+    font-size: 32px;
+
+}
+    
+.main p{
+    margin-top: 24px;
+    font-size: 16px;
+}
+.main-style h4{
+    margin-top: 20px;
+   border-left: 48px;
+   
+}
+.main-style p{
+    margin-top: 20px;
+    padding-right: 48px;
+    
+}
